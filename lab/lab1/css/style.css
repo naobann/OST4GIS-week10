@@ -4,27 +4,64 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+#navbar{
+    position:absolute;
+    border: 0;
+    border-radius: 0;
+    background-color: #265977;
+    border-bottom: 1px solid #eee;
+    margin: -8px -20px 10px;
+    padding: 60px 30px 5px;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    left: 0px;
+}
+
+#navbar-li{
+  color:#fcfcfc
+}
+
+#title{
+  position:absolute;
+  font-size: 14px;
+  left:0px;
+  right:50px;
+  top:-18px;
+  bottom:500px;
+}
+
+#add-new{
+  position:absolute;
+  right:40px;
+  background-color: #129acc;
+}
+
+#searchBar{
+  position:absolute;
+  top:40px;
+  width:340px;
+  right: 0px;
+  left: 0px;
+}
+
+#itembar{
+  position:absolute;
+  top: 80px;
+  left: 0px;
+  width: 340px;
+}
 .map {
     position: absolute;
     right: 0px;
-    left: 340px;
+    left: 540px;
     height: 100%;
     top: 0;
 }
 
-.sidebar {
-    position: absolute;
-    left: 0px;
-    width: 340px;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 20px;
-    padding-bottom: 60px;
-}
 
 .item {
-    padding: 10px;
+    padding: 5px;
     background-color: #eee;
 }
 
@@ -41,33 +78,51 @@ body {
 .sort {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 210px;
     width: 340px;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
+    color: #050505;
 }
 
-.sort-option {
+#sort-option {
+    margin-left: 20px;
+    color:#050505;
+}
+
+#sort-option-selected {
     margin-left: 10px;
+    color:#050505;
+
 }
 
-.sort-option.selected {
-    border-bottom: 1px solid #ccc;
+#myModal{
+  background-color: #fcfcfc;
+  position:absolute;
+  width: 500px;
+  top:20px;
+  right:600px;
+}
+#warning{
+  color: #fcfcfc;
+  background-color: #d60b08;
+  font-size: 12px;
 }
 
-.sidebar nav.navbar-default {
-    border: 0;
-    border-radius: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    margin: -14px -20px 20px;
-    padding: 10px 20px 15px;
+#big-font{
+  color: #6be5e1;
+  font-size: 64px;
 }
 
-.navbar-brand {
-    font-size: 14px;
-    font-weight: bold;
+#infobar{
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  bottom: 0px;
+  width: 380px;
 }
+
+
 
 /* =============
 Media Queries
